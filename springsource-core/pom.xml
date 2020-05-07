@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.lancelot.springframework</groupId>
+		<artifactId>springsource</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>springsource-core</artifactId>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.google.code.findbugs</groupId>
+			<artifactId>jsr305</artifactId>
+			<version>3.0.2</version>
+		</dependency>
+	</dependencies>
+
+
+	<!-- <build> <plugins> Java Compiler <plugin> <groupId>org.apache.maven.plugins</groupId> 
+		<artifactId>maven-compiler-plugin</artifactId> <configuration> <source>${java_source_version}</source> 
+		<target>${java_target_version}</target> <encoding>${file_encoding}</encoding> 
+		</configuration> </plugin> <plugin> <groupId>org.apache.maven.plugins</groupId> 
+		<artifactId>maven-source-plugin</artifactId> <executions> <execution> <id>attach-sources</id> 
+		<goals> <goal>jar</goal> </goals> </execution> </executions> </plugin> <plugin> 
+		<artifactId>maven-deploy-plugin</artifactId> </plugin> </plugins> </build> -->
+
+</project>
